@@ -71,16 +71,21 @@ Write the code to complete this in `euler_1/sum_of_natural_numbers.py`
 Here are some general questions you might get asked about Python. Spend some time researching and answering these questions.
 
 ##### How does Python compare to other langauges you've used?
+It's simpler and cleaner to read. It's a bit more intuitive to learn and isn't as intimidating for beginner programmers.
 
 ##### Is Python a high or low level language?
+Python is a high-level language, meaning its syntax/semantics closely relates to the human language.
 
 ##### Is it a compiled or interpeted language?
+Python can be both an interpreted and compiled language (there is a spectrum). An interpreted language is executed by an interpreter (language to machine code, process the program parts at a time) whereas a compiled language is converted to machine code using a compiler, then is executed by another program. **HOWEVER, PYTHON'S SITE EXPLICITLY STATES PYTHON IS AN INTERPRETED LANGUAGE, BUT THE INTERNET DISAGREES.**
 
 ##### What paradigms does Python support?
 
 ##### Does it have built in memory management? garbage collection?
+Python's memory management system behaves by adding 'tags' to values and variables. If two variables have the same value (a = 2, b = 2), you can think of the value having an 'a' tag and a 'b' tag. Those two variables with the same value are equivalent but are absolutely not the same thing. (**_Note to self: try id()_**)
+Python uses 'garbage collection' as well. You are free to assign and store values within a program, however, once any instance of a variable/value it overwritten/no longer hold a reference to them, the garbage collector takes over and decides what to do with it.
 
 ##### Does it have strong support for functional programming?
 
 ##### What's the deal with Python 2 vs Python 3?
-
+Python 3 is an updated version of Python 2 that essentially changed Python 2 to be more beginner friendly. The biggest difference is the way the "print" method/function works. Since Python 2 is legacy/older, it has many more libraries available for use, however, Python 3 is still growing :)
